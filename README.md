@@ -1,22 +1,51 @@
-## Features :
 
- Can create an account and login
+## Description
 
- Must be logged to access the website
-
+Create your own playlist from a large choice of music
 
 On the platform you will find :
 - artists with their albums and song
 - songs linked to an album sharing the same cover 
 - songs not linked to an album with an individual cover
 
- You can see the playlist that are public 
+Feature :
+- Create an account and login
+- See the playlist that are public 
+- Create your own public or private playlists
+- Edit your playlists
+- Add and remove songs to a playlist only if you are the owner of this playlist
+
+<img src='https://github.com/enas-elm/Laravel-Vue-Music-Platform/assets/90480267/6a2abee5-e36f-4a00-b6ff-70a7fea3ada8' width='70%'>
+<img src='https://github.com/enas-elm/Laravel-Vue-Music-Platform/assets/90480267/330db752-d202-4cbc-9568-f89ca275c195' width='70%'>
+<img src='https://github.com/enas-elm/Laravel-Vue-Music-Platform/assets/90480267/38f0ef64-e42b-4bd3-8e74-b18bba7a41ae' width='70%'>
+<img src='https://github.com/enas-elm/Laravel-Vue-Music-Platform/assets/90480267/884379f2-0584-4674-89f9-00e46e5ec6d0' width='70%'>
+
+## Setup
+ Clone the repository
+
  
- See all of the playlists that you have created
+Make sure to install the dependencies:
 
- Create a playlist
+```bash
+npm install
+```
 
- Add and remove songs to a playlist only if you are the owner of this playlist
+Start the server
+
+```
+php artisan serve
+```
+
+Start the development server :
+
+```bash
+npm run dev
+```
+
+Populate the database :
+```bash
+php artisan db:seed
+```
 
 
 

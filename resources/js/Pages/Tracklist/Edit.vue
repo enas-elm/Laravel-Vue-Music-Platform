@@ -25,7 +25,7 @@
 
         
         <section v-if="form.songs.length">
-            <h2>Songs in tracklist :</h2>
+            <h2>Songs in playlist :</h2>
             <div v-for="song in tracklist.songs" :key="tracklist.id">
                 {{song.title}}
             </div>
